@@ -4,7 +4,7 @@ title:      Model of Leaf Venation in Transport Network
 subtitle:   why loops appears in leaf venation
 date:       2019-11-20
 author:     Jing Yang
-header-img: img/scene2.jpg
+header-img: img/scene6.jpg
 catalog: true
 tags:
     - paper
