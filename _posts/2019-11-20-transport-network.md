@@ -7,7 +7,8 @@ author:     Jing Yang
 header-img: img/scene1.jpg
 catalog: true
 tags:
-    - paper
+    - My articles
+    - Academic
 ---
 # Model of Leaf Venation in Transport Network
 

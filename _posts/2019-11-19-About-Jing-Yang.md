@@ -8,7 +8,7 @@ author:     Jing Yang
 header-img: img/scene1.jpg
 catalog: true
 tags:
-    - self
+    - Self
 ---
 
 
