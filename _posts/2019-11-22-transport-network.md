@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Model of Leaf Venation in Transport Network
-subtitle:   Why Loops Appears in Leaf Venation
+subtitle:   Why Loops Appear in Leaf Venation
 date:       2019-11-22
 author:     Jing Yang
 header-img: img/scene1.jpg
