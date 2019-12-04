@@ -3,7 +3,7 @@
 layout:     post
 title:      About Jing Yang
 subtitle:   A detailed introduction
-date:       2019-11-19
+date:       2019-11-21
 author:     Jing Yang
 header-img: img/scene1.jpg
 catalog: true
