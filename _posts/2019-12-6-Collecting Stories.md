@@ -2,7 +2,7 @@
 layout:     post
 title:      Collecting Stories
 subtitle:   看到听的的的小故事、大道理
-date:       2019-11-26
+date:       2019-12-6
 author:     Jing Yang
 header-img: img/blog_joker.jpg
 catalog: true
