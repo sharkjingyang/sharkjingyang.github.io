@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      Collecting Stories
-subtitle:   看到听的的的小故事、大道理
+subtitle:   看到听到的小故事、大道理
 date:       2019-12-6
 author:     Jing Yang
-header-img: img/blog_joker.jpg
+header-img: img/scene1.jpg
 catalog: true
 tags:
     - Collection	
