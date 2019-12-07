@@ -22,11 +22,11 @@ tags:
 
 电脑上的样子：
 
-![1](C:\Users\lenovo\Documents\GitHub\shark\img\build pages\1.PNG)
+![1.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9osj52bqcj31gw0q01ky.jpg)
 
 手机上的样子：
 
-<img src="C:\Users\lenovo\Documents\GitHub\shark\img\build pages\2.jpg" alt="2" style="zoom:25%;" />
+<img src="http://ww1.sinaimg.cn/large/006EGaNZgy1g9oskdde8qj30u01sz0zx.jpg" alt="2.jpg" style="zoom:25%;" />
 
 ## 搭建Blog
 
