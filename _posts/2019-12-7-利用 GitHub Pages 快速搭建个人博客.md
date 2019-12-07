@@ -40,4 +40,6 @@ tags:
 
 可以选择新建立一个仓库然后作为在Settings里添加 Github Pages，Github提供了许多非常简易的模板。但是学习网站排版将会花费大量的时间。所以，鼓励像我一样刚开始学习撰写Blog的人，直接扒了别人的网站模板:smiley:。
 
-在 Github 中搜索
+在 Github 中搜索 `sharkjingyang.github.io`,就可以发现[我Blog的仓库](https://github.com/sharkjingyang/sharkjingyang.github.io)了。
+
+然后点击 Fork ，你就可以把我的所有文件都搬进你自己的仓库啦。
