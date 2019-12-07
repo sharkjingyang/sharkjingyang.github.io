@@ -28,9 +28,16 @@ tags:
 
 <img src="C:\Users\lenovo\Documents\GitHub\shark\img\build pages\2.jpg" alt="2" style="zoom:25%;" />
 
-## 开始搭建Blog
+## 搭建Blog
 
 ### 注册 Github
 
 我主要利用 [Github Pages](https://pages.github.com/) 来搭建网站，编辑markdown文件用 [Typora](https://www.typora.io/)，不过大家也可以用 [Sublime](https://www.sublimetext.com/) 来编辑所有文件。
 
+首先你得拥有一个 [Github](https://github.com/) 账号，注册过程不再详细赘述，现在已经推出了 [Github Desktop](https://desktop.github.com/) ，可以不再用命令行进行操作了（请避免像我先学了一天Git指令，然后痛苦地发现有了客户端）。
+
+### 使用 Github Pages
+
+可以选择新建立一个仓库然后作为在Settings里添加 Github Pages，Github提供了许多非常简易的模板。但是学习网站排版将会花费大量的时间。所以，鼓励像我一样刚开始学习撰写Blog的人，直接扒了别人的网站模板:smiley:。
+
+在 Github 中搜索
