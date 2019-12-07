@@ -38,7 +38,7 @@ tags:
 
 ### 使用 Github Pages
 
-可以选择新建立一个仓库然后作为在Settings里添加 Github Pages，Github 提供了许多非常简易的模板。但是学习网站排版将会花费大量的时间。所以，鼓励像我一样刚开始学习撰写Blog的人，直接扒了别人的网站模板:smiley:。
+可以选择新建立一个仓库然后作为在 Settings 里添加 Github Pages。Github 提供了许多非常简易的模板。但是学习网站排版将会花费大量的时间。所以，鼓励像我一样刚开始学习撰写 Blog 的人，直接扒了别人的网站模板。
 
 在 Github 中搜索 `sharkjingyang.github.io`,就可以发现我[ Blog的仓库](https://github.com/sharkjingyang/sharkjingyang.github.io)。
 
