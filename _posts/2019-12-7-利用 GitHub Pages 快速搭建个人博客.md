@@ -42,11 +42,15 @@ tags:
 
 在 Github 中搜索 `sharkjingyang.github.io`,就可以发现我[ Blog的仓库](https://github.com/sharkjingyang/sharkjingyang.github.io)。
 
-然后点击 Fork ，你就可以把我的所有文件都搬进你自己的仓库啦。进入 Fork 过来的仓库，进入 Settings , 将仓库名 `sharkjingyang.github.io` 修改为 `你的github用户名.github.io` 。
+然后点击 Fork ，你就可以把我的所有文件都搬进你自己的仓库啦。进入 Fork 过来的仓库。
 
-![3.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9puut9xdmj31gt0iujst.jpg)
+进入 Settings 
 
-![4.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9puzyjd65j31gt0iemyg.jpg)
+![3.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pw77qzxej30sh0hit9p.jpg)
+
+ 将仓库名 `sharkjingyang.github.io` 修改为 `你的github用户名.github.io` 。
+
+![4.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pw8hy2awj30sh0gaq48.jpg)
 
 到这里一个复制的个人主页就初步完成了，在浏览器内输入 `你的github用户名.github.io` 就能进入你自己的主页啦，效果如图。之后我将说明如何修改文件使得来完全修改成你自己的主页。
 
