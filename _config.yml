@@ -1,12 +1,12 @@
 # Site settings..
-title: Shark Blog
-SEOTitle: 荆洋的博客 | Shark Blog
-header-img: img/desk.jpg
-email: sharkjingyang@gmail.com
+title: Shark Blog  # 博客标题
+SEOTitle: 荆洋的博客 | Shark Blog # 浏览器中显示的名字
+header-img: img/desk.jpg   # 主页背景
+email: sharkjingyang@gmail.com  
 description: "Every failure is leading towards success."
 keyword: "Jing Yang, SJTU, mathematics, Blog, JY"
-url: "http://sharkjingyang.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://sharkjingyang.github.io"          # 博客地址 for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog' 这个是在url后加的，但我们不用填
 github_repo: "https://github.com/sharkjingyang/sharkjingyang.github.io.git" # you code repository
 
 # Sidebar settings
@@ -16,13 +16,13 @@ sidebar-avatar: /img/jy.jpg      # use absolute URL, seeing it's used in both `/
 
 
 
-# # SNS settings
+# SNS settings
 RSS: false
 weibo_username:     6097901747/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
 facebook_username:  profile.php?id=100024669250217
+github_username:  sharkjingyang 
+instagram_username: shark_jing 
 # zhihu_username: people/jing-yang-77-49/activities
-github_username:  sharkjingyang # replace with your_github_username or comment to remove link from footer
-instagram_username: shark_jing # replace with your_instagram_username or comment to remove link from footer
 
 
 # Build settings

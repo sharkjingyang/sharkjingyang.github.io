@@ -10,8 +10,6 @@ tags:
     - My articles	
 ---
 
-# 利用 Github Pages 搭建个人博客
-
 > 感谢 [Github·BY](https://github.com/qiubaiying/qiubaiying.github.io) 提供的模板
 >
 > 写这篇文章主要是记录一下自己建立自己这个博客的过程
@@ -68,4 +66,26 @@ tags:
 ### 修改文件
 
 假装大家已经学会了使用 Github Desktop ，并且已经将仓库 Clone 到了本地。
+
+首先我们来修改 `_config.yml` 文件，这是主页的全局配置文件。用 Sublime 打开，修改相关项完成对主页信息的编辑。
+
+![5.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwqma4pjj30oi054jrt.jpg)
+
+接下里我们修改侧边栏，可以加入自己的基本信息和照片。
+
+![6.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwsdammaj30m302ijrc.jpg)
+
+修改的就是这块，效果如图所示
+
+![7.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwti2m25j307q06ztap.jpg)
+
+修改侧边栏和网页底部的社交账号
+
+![9.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwxfg322j30al032a9x.jpg)
+
+![image-20191208141301725](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20191208141301725.png)
+
+这里要强调的是，username 填的并不是自己的用户名，而是个人主页网址的最后一部分。如我 instagram 的个人主页是 `https://www.instagram.com/shark_jing/`， 那么我填入的是 `shark_jing`。这是由于我们点击社交账号所导航到的是个人主页，而有些网站并不是以用户名作为结尾的。想要修改相关路径，页脚可修改 `footer.html` ，侧边栏可修改 `page.html`。
+
+
 
