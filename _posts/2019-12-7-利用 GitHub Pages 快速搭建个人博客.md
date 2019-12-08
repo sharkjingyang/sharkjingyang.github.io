@@ -85,7 +85,7 @@ tags:
 
 ![9.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwxfg322j30al032a9x.jpg)
 
-![image-20191208141301725](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20191208141301725.png)
+![8.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9q2jztatyj30jq03vdfu.jpg)
 
 这里要强调的是，username 填的并不是自己的用户名，而是个人主页网址的最后一部分。如我 instagram 的个人主页是 `https://www.instagram.com/shark_jing/`， 那么我填入的是 `shark_jing`。这是由于我们点击社交账号所导航到的是个人主页，而有些网站并不是以用户名作为结尾的。想要修改相关路径，页脚可修改 `footer.html` ，侧边栏可修改 `page.html`。
 
