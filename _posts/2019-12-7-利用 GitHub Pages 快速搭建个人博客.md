@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      利用 GitHub Pages 搭建个人博客
-subtitle:   How to build a blog by using Github Pages (Not finished)
-date:       2019-12-7
-author:     Jing Yang
+layout:     post                                                     
+title:      利用 GitHub Pages 搭建个人博客                            
+subtitle:   How to build a blog by using Github Pages (Not finished)   
+date:       2019-12-7                                                 
+author:     Jing Yang                                                 
 header-img: img/scene7.jpg
-catalog: true
-tags:
-    - My articles	
+catalog: true                                                          
+tags:                                                                  
+    - My articles	 
 ---
 
 ## 利用 GitHub Pages 搭建个人博客
@@ -16,7 +16,7 @@ tags:
 >
 > 写这篇文章主要是记录一下自己建立自己这个博客的过程
 >
-> 对于 HTLM 文件的使用依然还在摸索中
+> 对于网页布局的设置依然还在摸索中
 
 ## 主页样式
 
@@ -52,11 +52,11 @@ tags:
 
 ![4.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pw8hy2awj30sh0gaq48.jpg)
 
-到这里一个复制的个人主页就初步完成了，在浏览器内输入 `你的github用户名.github.io` 就能进入你自己的主页啦，效果如图。之后我将说明如何修改文件使得来完全修改成你自己的主页。
+到这里一个复制的个人主页就初步完成了，在浏览器内输入 `你的github用户名.github.io` 就能进入你自己的主页啦，效果如图。之后我将说明如何修改文件使得完全修改成你自己的主页。
 
 ![1.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9osj52bqcj31gw0q01ky.jpg)
 
-## 网站文件
+## 网站构成
 
 ### 主要文件
 
@@ -65,7 +65,7 @@ tags:
 * `img` 是存放照片的文件夹，主要存放背景图已经 blog 中的各种标识。（文章中的图片需要上传图床）
 * `.html` 文件配置的是链接的相关页面，如 Tags 、About 等。
 
-### 修改文件
+### 修改 HOME 主页
 
 假装大家已经学会了使用 Github Desktop ，并且已经将仓库 Clone 到了本地。
 
@@ -87,7 +87,24 @@ tags:
 
 ![8.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9q2jztatyj30jq03vdfu.jpg)
 
-这里要强调的是，username 填的并不是自己的用户名，而是个人主页网址的最后一部分。如我 instagram 的个人主页是 `https://www.instagram.com/shark_jing/`， 那么我填入的是 `shark_jing`。这是由于我们点击社交账号所导航到的是个人主页，而有些网站并不是以用户名作为结尾的。想要修改相关路径，页脚可修改 `footer.html` ，侧边栏可修改 `page.html`。
+这里要强调的是，username 填的并不是自己的用户名，而是个人主页网址的最后一部分。如我 instagram 的个人主页是 `https://www.instagram.com/shark_jing/`， 那么我填入的是 `shark_jing`。这是由于我们点击社交账号所导航到的是个人主页，而有些网站并不是以用户名作为结尾的。想要修改或者增加社交账号的相关路径，页脚的路径可修改 `footer.html` 文件，侧边栏可修改 `page.html` 文件。
 
+当你修改完以上内容后，你的 HOME 主页就已经修改好了，接下来让我来看下如何写自己的文章。
 
+## 写文章
 
+网站的文章统一放在 `_posts` 文件夹内，采用 markdown 的格式。
+
+每一篇文章的命名格式为 `2019-12-8-文章题目.md` 时间+标题的形式。
+
+Markdown 是一种非常简单的标记语言，其目的就是为了把写文章的人从排版等繁琐的格式中解放出来。网上有很多 Markdown 的编辑器，常见的有 [Typora](https://www.typora.io/)、[马克飞象](https://maxiang.io/)、[MarkdownPad](http://markdownpad.com/)、Windows 商店里的 BookPad 等等，当然 [Sublime](https://www.sublimetext.com/) 添加插件以后也是可以编辑的。经过尝试，我个人比较喜欢用的是 Typora、马克飞象、BookPad 。不过秉承着免费、好用、个性化的原则，我在这里隆重安利 Typora。在这里引用一篇讲解 Typora 好处的文章给大家，详细解释了 Typora 的个性化以及方便性（Typora 完全使用详解）[](https://sspai.com/post/54912)，Typora 直接渲染的功能可能对习惯 Latex 分屏的用户刚开始不太习惯，但是个性化的制定确实比其他 Markdown 编辑器高出一个档次。
+
+关于 Markdown 的语法，花半个小时就能学习一下，再不济 Typora 顶栏也有完整的操作选项，这里是一篇有关 Markdown 语法的文章（[Markdown 基本语法](https://www.jianshu.com/p/191d1e21f7ed)）。
+
+每篇文章的开头有这样一部分，是用来添加这篇文章的信息的。博客中文章将按照这里的时间进行排序。
+
+![10.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9q3cfofirj30j105gdg0.jpg)
+
+关于文章里的图片，不能直接从本地上传链接，否则会显示失败。解决方案是先将图片上传到图床，获取 URL 链接并用此链接插入图片。我用的是 [Chrome 的微博图床插件](https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf?utm_source=chrome-ntp-icon)上传图片。
+
+到这里你就可以正式愉快的写文章啦！
