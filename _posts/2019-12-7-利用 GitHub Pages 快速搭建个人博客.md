@@ -97,7 +97,7 @@ tags:
 
 每一篇文章的命名格式为 `2019-12-8-文章题目.md` 时间+标题的形式。
 
-Markdown 是一种非常简单的标记语言，其目的就是为了把写文章的人从排版等繁琐的格式中解放出来。网上有很多 Markdown 的编辑器，常见的有 [Typora](https://www.typora.io/)、[马克飞象](https://maxiang.io/)、[MarkdownPad](http://markdownpad.com/)、Windows 商店里的 BookPad 等等，当然 [Sublime](https://www.sublimetext.com/) 添加插件以后也是可以编辑的。经过尝试，我个人比较喜欢用的是 Typora、马克飞象、BookPad 。不过秉承着免费、好用、个性化的原则，我在这里隆重安利 Typora。在这里引用一篇讲解 Typora 好处的文章给大家，详细解释了 Typora 的个性化以及方便性（Typora 完全使用详解）[](https://sspai.com/post/54912)，Typora 直接渲染的功能可能对习惯 Latex 分屏的用户刚开始不太习惯，但是个性化的制定确实比其他 Markdown 编辑器高出一个档次。
+Markdown 是一种非常简单的标记语言，其目的就是为了把写文章的人从排版等繁琐的格式中解放出来。网上有很多 Markdown 的编辑器，常见的有 [Typora](https://www.typora.io/)、[马克飞象](https://maxiang.io/)、[MarkdownPad](http://markdownpad.com/)、Windows 商店里的 BookPad 等等，当然 [Sublime](https://www.sublimetext.com/) 添加插件以后也是可以编辑的。经过尝试，我个人比较喜欢用的是 Typora、马克飞象、BookPad 。不过秉承着免费、好用、个性化的原则，我在这里隆重安利 Typora。在这里引用一篇讲解 Typora 好处的文章给大家，详细解释了 Typora 的个性化以及方便性（[Typora 完全使用详解](https://sspai.com/post/54912)），Typora 直接渲染的功能可能对习惯 Latex 分屏的用户刚开始不太习惯，但是个性化的制定确实比其他 Markdown 编辑器高出一个档次。
 
 关于 Markdown 的语法，花半个小时就能学习一下，再不济 Typora 顶栏也有完整的操作选项，这里是一篇有关 Markdown 语法的文章（[Markdown 基本语法](https://www.jianshu.com/p/191d1e21f7ed)）。
 
