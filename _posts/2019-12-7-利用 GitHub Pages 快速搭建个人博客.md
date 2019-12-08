@@ -10,6 +10,8 @@ tags:
     - My articles	
 ---
 
+## 利用 GitHub Pages 搭建个人博客
+
 > 感谢 [Github·BY](https://github.com/qiubaiying/qiubaiying.github.io) 提供的模板
 >
 > 写这篇文章主要是记录一下自己建立自己这个博客的过程
