@@ -42,4 +42,26 @@ tags:
 
 在 Github 中搜索 `sharkjingyang.github.io`,就可以发现我[ Blog的仓库](https://github.com/sharkjingyang/sharkjingyang.github.io)。
 
-然后点击 Fork ，你就可以把我的所有文件都搬进你自己的仓库啦。
+然后点击 Fork ，你就可以把我的所有文件都搬进你自己的仓库啦。进入 Fork 过来的仓库，进入 Settings , 将仓库名 `sharkjingyang.github.io` 修改为 `你的github用户名.github.io` 。
+
+![3.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9puut9xdmj31gt0iujst.jpg)
+
+![4.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9puzyjd65j31gt0iemyg.jpg)
+
+到这里一个复制的个人主页就初步完成了，在浏览器内输入 `你的github用户名.github.io` 就能进入你自己的主页啦，效果如图。之后我将说明如何修改文件使得来完全修改成你自己的主页。
+
+![1.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9osj52bqcj31gw0q01ky.jpg)
+
+## 网站文件
+
+### 主要文件
+
+* `_config.yml` 是全局配置文件，主要是负责 HOME 页面的排版。
+* `_posts` 是存放 markdown 文件的地方，也就是我们的文章。
+* `img` 是存放照片的文件夹，主要存放背景图已经 blog 中的各种标识。（文章中的图片需要上传图床）
+* `.html` 文件配置的是链接的相关页面，如 Tags 、About 等。
+
+### 修改文件
+
+假装大家已经学会了使用 Github Desktop ，并且已经将仓库 Clone 到了本地。
+
