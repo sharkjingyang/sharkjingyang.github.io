@@ -19,8 +19,9 @@ description: "It's the people who no one imagines anything of who do the thing t
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} 
-        (Updated on {{ post.updated | date: "%B %-d, %Y" }})
+        Updated on {{ post.updated | date: "%B %-d, %Y" }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }} <br>
+        
     </p>
 </div>
 <hr>
