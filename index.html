@@ -19,7 +19,7 @@ description: "It's the people who no one imagines anything of who do the thing t
         </div>
     </a>
     <p class="post-meta">
-        Updated on {% if post.updated %}{{ post.updated | date: "%B %-d, %Y" }}<br>
+        Updated on {{ post.updated | date: "%B %-d, %Y" }}<br>
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
         
     </p>
