@@ -1,7 +1,7 @@
 ---
 layout:     post                                                     
 title:      利用 GitHub Pages 搭建个人博客                            
-subtitle:   How to build a blog by using Github Pages (Not finished)   
+subtitle:   How to build a blog by using Github Pages
 date:       2019-12-7                                                 
 author:     Jing Yang                                                 
 header-img: img/scene7.jpg
