@@ -108,3 +108,7 @@ Markdown 是一种非常简单的标记语言，其目的就是为了把写文�
 关于文章里的图片，不能直接从本地上传链接，否则会显示失败。解决方案是先将图片上传到图床，获取 URL 链接并用此链接插入图片。我用的是 [Chrome 的微博图床插件](https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf?utm_source=chrome-ntp-icon)上传图片。
 
 到这里你就可以正式愉快的写文章啦！
+
+## 其他文件修改
+
+### About Me
