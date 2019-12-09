@@ -4,6 +4,7 @@ layout:     post
 title:      About Jing Yang
 subtitle:   Learn More about Me
 date:       2019-11-21
+updated:    2019-11-21
 author:     Jing Yang
 header-img: img/scene1.jpg
 catalog: true
