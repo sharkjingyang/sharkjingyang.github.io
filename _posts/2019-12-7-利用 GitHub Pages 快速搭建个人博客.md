@@ -153,7 +153,11 @@ Tags 页面在 `tags.html` 文件中修改，不建议做大改动。
 
 ![19.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qxbypb6rj30kb02kt8m.jpg)
 
+## 写在最后
 
+记得在 Github Desktop 中 commit 和 push origin 哦，再过一会儿刷新 `你的用户名.github.io` 就可以看到你的主页啦。
+
+恭喜你拥有了自己的 Blog ！还不快写起文章来 ！
 
 
 
