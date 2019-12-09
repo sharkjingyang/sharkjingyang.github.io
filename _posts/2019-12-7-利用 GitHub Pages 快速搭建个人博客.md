@@ -112,3 +112,48 @@ Markdown 是一种非常简单的标记语言，其目的就是为了把写文�
 ## 其他文件修改
 
 ### About Me
+
+这里我们想修改 About Me 的自我介绍页面，也就是侧边栏和右上角链接的页面。
+
+![11.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwiroz91j31go0q5kjm.jpg)
+
+打开 `about.html` 文件，可修改最上方几项来更换背景、标题、描述。
+
+![12.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwl16n8aj30c202yglh.jpg)
+
+接下来的内容是用 HTML 语言编辑的，这里我们先抛开页面排版的问题，可以略微学习一些简单的文字排版指令，来修改自我介绍页面文字内容，这是一篇讲述如何换行、列表等基础指令的文章。（ [HTML基础语法](https://www.jianshu.com/p/5892747102e7)）
+
+### Index
+
+打开 `index.html` 文件，这个文件主要涉及的是 Home 页的标语和文章的显示。
+
+![14.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwt129eij311z07c7nm.jpg)
+
+![15.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwto9rt1j30q1062jrs.jpg)
+
+其对应的代码分别为：
+
+![16.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qww2lq70j30oz0290sk.jpg)
+
+![17.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwwzjoxjj30v00alwet.jpg)
+
+要说明的是 `post.date` 对应的是 Markdown 文件中开头填写的日期，而非文件名的日期，页面也将会按照该日期进行排列。`date: "%B %-d, %Y"` 是日期的显示格式。
+
+### Tags
+
+Tags 页面在 `tags.html` 文件中修改，不建议做大改动。
+
+### Head
+
+倘若要修改网站图标和手机上显示的网站图标
+
+![18.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qx5lzfucj306y011we9.jpg)
+
+可在 `img` 文件夹中替换 `favicon.ico` 与 `apple-touch-icon.png`。或者可进入 `head.html` 文件，修改图片路径。
+
+![19.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qxbypb6rj30kb02kt8m.jpg)
+
+
+
+
+
