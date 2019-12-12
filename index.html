@@ -4,10 +4,7 @@ description: "It's the people who no one imagines anything of who do the thing t
 ---
 
 {% for post in paginator.posts %}
-	{% if post.stickie = true %}
-		{% continue %}
-	{% endif %}
-	<div class="post-preview">
+<div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
