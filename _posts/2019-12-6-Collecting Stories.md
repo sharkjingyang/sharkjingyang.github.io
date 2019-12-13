@@ -5,6 +5,7 @@ subtitle:   看到听到的小故事、大道理
 date:       2019-12-6
 updated:    2019-12-6
 author:     Jing Yang
+stickie:    false
 header-img: img/scene6.jpg
 catalog: true
 tags:

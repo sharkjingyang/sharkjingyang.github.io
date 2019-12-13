@@ -5,6 +5,7 @@ subtitle:   Why Loops Appear in Leaf Venation
 date:       2019-11-22
 updated:    2019-11-22
 author:     Jing Yang
+stickie:    false
 header-img: img/scene1.jpg
 catalog: true
 tags:
