@@ -31,7 +31,7 @@ In proximal tubule, cells and tight junctions between cells form a single-layer 
 
 Water conservation in cell and lateral space (denoted by subscripts "C" and "P'' respectively) is given by :
 
-$$\frac{\mathrm{d} V_{\mathrm{C}}}{\mathrm{d} t}=J_{v, \mathrm{LC}}+J_{v, \mathrm{BC}}+J_{v, \mathrm{PC}}$$
+$$x^2$$
 
 $\frac{\mathrm{d} V_{\mathrm{p}}}{\mathrm{d} t}=J_{v, \mathrm{LP}}+J_{v, \mathrm{BP}}+J_{v, \mathrm{CP}}$
 
