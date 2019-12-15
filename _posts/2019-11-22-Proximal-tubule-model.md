@@ -25,7 +25,7 @@ We developed a dynamic model of a male rat proximal tubule in order to investiga
 -----
 ## Main
 
-<center><embed src="https://docdro.id/y6SRbgX" width="750" height="6800"></center>
+<center><embed src="https://docdro.id/y6SRbgX" width="700" height="6900"></center>
 
 ## Reference
 
