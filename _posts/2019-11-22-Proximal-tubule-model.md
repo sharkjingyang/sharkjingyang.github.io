@@ -25,10 +25,9 @@ We developed a dynamic model of a male rat proximal tubule in order to investiga
 -----
 ## Main
 
-<center><embed src="https://docdro.id/y6SRbgX" width="700" height="5000"></center>
+<center><embed src="https://docdro.id/y6SRbgX" width="700" height="7000"></center>
 
 ## Reference
 
 * [Edwards A, Layton A T. Cell volume regulation in the proximal tubule of rat kidney[J]. Bulletin of mathematical biology, 2017, 79(11): 2512-2533.](https://link.springer.com/article/10.1007/s11538-017-0338-6)
 * [Layton A T, Edwards A. Mathematical Modeling in Renal Physiology[M]. Berlin, Germany: Springer, 2014.](https://link.springer.com/content/pdf/10.1007/978-3-642-27367-4.pdf)
-
