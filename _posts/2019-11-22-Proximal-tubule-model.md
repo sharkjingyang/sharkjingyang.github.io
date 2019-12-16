@@ -20,7 +20,7 @@ tags:
 
 We developed a dynamic model of a male rat proximal tubule in order to investigate results brought by changes on different lumen boundary conditions. We examined how long it will take to reach a steady state again from a sudden change. We also investigated whether oscillation on a single parameter will result in similar oscillations on other parameters. We determined that these oscillations will not have a significant passive effect on proximal tubule's re-absorption. We also noticed several irregular phenomenon such as phase difference and amplitude difference on the oscillation pattern of concentrations in different part along the tubule. And we tried to explain these response by using physiological knowledge.
 
-**Keyword** : Proximal tubule; Oscillations; Concentrations; Dynamic model
+**Keyword** : Proximal tubule $\cdot$ Oscillations; Concentrations; Dynamic model
 
 -----
 ## Main
