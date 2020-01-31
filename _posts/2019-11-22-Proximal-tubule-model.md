@@ -6,7 +6,7 @@ date:       2019-12-15
 updated:    2019-12-15
 author:     Jing Yang
 stickie:    false
-header-img: img/scene8.jpg
+header-img: img/scene2.jpg
 catalog: true
 tags:
     - My articles

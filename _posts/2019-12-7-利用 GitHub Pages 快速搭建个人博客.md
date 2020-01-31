@@ -5,7 +5,7 @@ subtitle:   How to build a blog by using Github Pages
 date:       2019-12-7                                                 
 author:     Jing Yang  
 stickie:    false                                               
-header-img: img/scene7.jpg
+header-img: img/scene9.jpg
 catalog: true        
 updated :   2019-12-9                                                  
 tags:                                                                  
