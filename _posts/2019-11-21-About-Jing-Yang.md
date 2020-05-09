@@ -59,6 +59,11 @@ I am going to apply for graduate programs that start in Fall 2020.
      * Do research on SGD algorithm and its convergence theory.
      * Learn stochastic differential equations and reinforce learning.
      * Do numerical experiments on test sets to verify different algorithm.
+* Graduate Thesis
+   * Jan.2020-Present
+   * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) 
+   * SGD with birth death process and noise
+      * Numerical experiment
 
 ----------
 ## Awards
