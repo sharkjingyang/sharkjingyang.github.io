@@ -18,6 +18,7 @@ I am Jing Yang ( 荆洋 ) , a last-year undergraduate majoring in Applied Mathem
 
 My current research field :
 * Machine Learning and SGD convergence theory
+* Optimisation
 * Computational Fluid Mechanics
 * Bio-math modeling
 
@@ -43,7 +44,7 @@ My current research field :
    * Advised by [Xiao Dongmei](http://math.sjtu.edu.cn/faculty/xiaodm/intro.html)
    * Euler-Lagrange Equation
 * **Kidney Group@University of Waterloo**
-   * July.2019-Present
+   * July.2019-Dec.2020
    * Advised by [Anita Layton](https://uwaterloo.ca/scholar/a2layton)
    * Dynamic Kidney Proximal Tubal Model
      * Build a dynamic model for proximal tubal system
@@ -96,5 +97,5 @@ My current research field :
 
 ### Dota 2
 
-* Legend IV Support；Legend II Core
-* Heroes : Viper ; Tiny ; Vengeful Spirit 
+* Divine Support
+* Heroes : Bane ; Phoenix ; Vengeful Spirit 
