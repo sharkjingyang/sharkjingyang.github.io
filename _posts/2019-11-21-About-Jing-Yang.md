@@ -55,12 +55,12 @@ My current research field :
    * Long time diffusion approximations for SGD
 * **Research Under Supervision@Shanghai Jiao Tong University & Duke University**
    * Jun.2020-Present
-   * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) & [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) 
+   * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) & [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) online
    * Solving high-dimensional Hamilton-Jacobi-Bellman PDEs using neural networks
      - perspectives from the theory of controlled diffusions and measures on path space
 * **Research Under Supervision@Mcgill University**
    * Jun.2020-Present
-   * Advised by [Yi Yang](http://www.math.mcgill.ca/yyang/) 
+   * Advised by [Yi Yang](http://www.math.mcgill.ca/yyang/)  online
    * Statistics Machine Learning
    * Optimization
 
