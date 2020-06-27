@@ -17,10 +17,9 @@ tags:
 I am Jing Yang ( 荆洋 ) , a last-year undergraduate majoring in Applied Mathematics at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I am a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
 
 My current research field :
-* Machine Learning and SGD convergence theory
-* Optimisation
-* Computational Fluid Mechanics
-* Bio-math modeling
+* Machine Learning Algorithms
+* Optimization
+* Stochastic Partial Equations in Machine Learning
 
 ----------
 
@@ -39,31 +38,35 @@ My current research field :
    * Stochastic Optimization
      * Carry out research on a weight distribution method targeting on strong convex functions and smooth functions based on the reading of [Zhang Tong](http://tongzhang-ml.org/ )'s paper.
      * Conduct the optimization to accelerate the convergence and reduce the variance.
-* **Math Group@Shanghai Jiao Tong University**
-   * Feb.2019-June.2019
-   * Advised by [Xiao Dongmei](http://math.sjtu.edu.cn/faculty/xiaodm/intro.html)
-   * Euler-Lagrange Equation
 * **Kidney Group@University of Waterloo**
    * July.2019-Dec.2020
    * Advised by [Anita Layton](https://uwaterloo.ca/scholar/a2layton)
    * Dynamic Kidney Proximal Tubal Model
      * Build a dynamic model for proximal tubal system
      * Do numerical experiments to find how oscillations on different parameters will influence the results and explain them by physiological knowledge.
-* **Independent Research@Shanghai Jiao Tong University**
-   * Aug.2019-Present
-   * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) online
-   * SGD convergence theory and reinforce learning
-     * Do research on SGD algorithm and its convergence theory.
-     * Learn stochastic differential equations and reinforce learning.
-     * Do numerical experiments on test sets to verify different algorithm.
-* **Graduate Thesis**
-   * Jan.2020-Present
+* **Independent Research & Graduate Thesis@Shanghai Jiao Tong University**
+   * Aug.2019-Jun.2020
    * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) 
+   * SGD convergence theory
+     * Do research on SGD algorithm and its convergence theory.
+     * Learn stochastic differential equations.
+     * Do numerical experiments on test sets to verify different algorithm.
    * SGD with birth death process and noise
    * Long time diffusion approximations for SGD
+* **Research Under Supervision@Shanghai Jiao Tong University & Duke University**
+   * Jun.2020-Present
+   * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) & [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) 
+   * Solving high-dimensional Hamilton-Jacobi-Bellman PDEs using neural networks
+     - perspectives from the theory of controlled diffusions and measures on path space
+* **Research Under Supervision@Mcgill University**
+   * Jun.2020-Present
+   * Advised by [Yi Yang](http://www.math.mcgill.ca/yyang/) 
+   * Statistics Machine Learning
+   * Optimization
 
 ----------
 ## Awards
+
 * Liao Kaiyuan Scholarship (Top 10% in college)
 * Xingcai Scholarship (Top 10% in college)
 * Zhiyuan Honorary Scholarship (Top 5% in university)
