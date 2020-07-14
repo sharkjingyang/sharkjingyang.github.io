@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      个人文档--Python常用汇总
-subtitle:   使用Pyhton过程中常用函数，方便自己查阅
+title:      Code Reference
+subtitle:   Python functions
 date:       2020-7-13
 updated:    2020-7-13
 author:     Jing Yang
