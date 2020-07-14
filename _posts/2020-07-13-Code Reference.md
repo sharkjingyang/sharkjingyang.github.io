@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Code Reference
-subtitle:   方便自己查
+title:      Code Reference 
+subtitle:   方便自己查的手册
 date:       2020-07-13
 updated:   2020-07-13
 author:     Jing Yang
