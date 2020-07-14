@@ -15,13 +15,13 @@ tags:
 
 ## 
 
-## Numpy
+## Numpy库
 
 
 
-## Pytorch
+## Pytorch库
 
 
 
-## Matplot
+## Matplot库
 
