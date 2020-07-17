@@ -1,0 +1,68 @@
+---
+layout:     post
+title:      Code Reference
+subtitle:   查过的代码，随手记录
+date:       2020-07-13
+updated:    2020-07-13
+author:     Jing Yang
+stickie:    false
+header-img: img/scene5.jpg
+catalog: true
+tags:
+    - Collection	
+    - Updating
+
+---
+
+## Numpy
+
+### .dot
+
+`a.dot(b)`表示两个向量内积
+
+`A.dot(B)` 表示两个矩阵的矩阵乘法
+
+### np.linspace
+
+`np.linspace(start,end,Number)`从start到end，生成等距的维度为Number的向量。如果start和end是向量的话，则生成对应矩阵
+
+### np.random.randn
+
+`np.random.randn（5,3）`创建一个5×3的随机矩阵，元素为满足标准正态分布的随机变量
+
+
+
+## Pytorch
+
+### 随机取样
+
+假设有num_examples个样本
+
+```python
+def select_data_batch(features,labels,batch_size):
+    num_examples=features.size(0)
+	indices=list(range(num_examples))
+	random.shuffle(indices) #对样本序号进行随机
+	for i in range(0,num_examples,batch_size)
+		j=torch.LongTensor(indices[i:min(i+batch_size,num_examples)]) 
+    	yield features.index_select(0,j),labels.index_select(0,j)
+```
+
+### torch.index_select ( A, i , j )
+
+也可以写作 `A.index_select (i,j)` 表示A的维度i，选取indece为j的元素，j可以使indice集合。比如要选取第3、4行的向量，可以是 ``A.index_select (0,[3,4])``
+
+### torch.cat
+
+`torch.cat(A,B,int)`将A和B两个矩阵从维度int拼接在一起
+
+### torch.matmul
+
+`torch.matmul(A,B)` 根据A和B的类型进行乘法。若均为向量，则为点积；若A是矩阵，B是向量或是矩阵，则按照矩阵乘法。
+
+## import matplotlib.pyplot as plt
+
+### plt.scatter
+
+`plt.scatter(a.numpy(),b.numpy(),size=2)` 以a为横轴，b为纵轴，点的size为2
+
