@@ -14,7 +14,7 @@ tags:
 
 
 ## Introduction
-I am Jing Yang ( 荆洋 ) , a last-year undergraduate majoring in Applied Mathematics at [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I am a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
+I am Jing Yang ( 荆洋 ) , majoring in Applied Mathematics. In 2020 Summer, I graduated from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) I am a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
 
 My current research field :
 * Machine Learning Algorithms
@@ -82,7 +82,7 @@ My current research field :
 
 ## Interests
 
-### sports
+### Sports
 
 * Love to play all kinds of ball games, passionate fan of NBA and soccer. 
 * My favorite NBA team is Boston Celtics. Favorite player is  Nikola Jokic. 
