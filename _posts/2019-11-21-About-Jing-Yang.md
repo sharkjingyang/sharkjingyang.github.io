@@ -6,7 +6,7 @@ date:       2019-11-21
 updated:    2019-11-21
 author:     Jing Yang
 stickie:    false
-header-img: img/scene1.jpg
+header-img: img/scene16.jpg
 catalog: true
 tags:
     - Self
@@ -14,7 +14,7 @@ tags:
 
 
 ## Introduction
-I am Jing Yang ( 荆洋 ) , majoring in Applied Mathematics. In 2020 Summer, I graduated from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) I am a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
+I am Jing Yang ( 荆洋 ) , a PhD student majoring in Applied Mathematics in [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I got my Bachelor's Degree in SJTU in 2020. I was a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
 
 My current research field :
 * Machine Learning Algorithms
