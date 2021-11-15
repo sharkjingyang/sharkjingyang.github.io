@@ -28,7 +28,7 @@ tags:
 
 手机上的样子：
 
-<img src="http://ww1.sinaimg.cn/large/006EGaNZgy1g9oskdde8qj30u01sz0zx.jpg" alt="2.jpg" style="zoom:25%;" />
+<img src="http://tva1.sinaimg.cn/large/006EGaNZgy1gwg69chi6yj30u01szjyb.jpg" alt="2.jpg" style="zoom:25%;" />
 
 ## 搭建 Blog
 
@@ -48,15 +48,15 @@ tags:
 
 进入 Settings 
 
-![3.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pw77qzxej30sh0hit9p.jpg)
+![3.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6auhudij30sh0hitcs.jpg)
 
  将仓库名 `sharkjingyang.github.io` 修改为 `你的github用户名.github.io` 。
 
-![4.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pw8hy2awj30sh0gaq48.jpg)
+![4.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6bljcnsj30sh0gaq6p.jpg)
 
 到这里一个复制的个人主页就初步完成了，在浏览器内输入 `你的github用户名.github.io` 就能进入你自己的主页啦，效果如图。之后我将说明如何修改文件使得完全修改成你自己的主页。
 
-![1.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9osj52bqcj31gw0q01ky.jpg)
+![1.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg65v5xisj31gw0q016j.jpg)
 
 ## 网站构成
 
@@ -73,21 +73,21 @@ tags:
 
 首先我们来修改 `_config.yml` 文件，这是主页的全局配置文件。用 Sublime 打开，修改相关项完成对主页信息的编辑。
 
-![5.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwqma4pjj30oi054jrt.jpg)
+![5.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6cxv4wqj30oi054jtn.jpg)
 
 接下里我们修改侧边栏，可以加入自己的基本信息和照片。
 
-![6.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwsdammaj30m302ijrc.jpg)
+![6.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6ddp4axj30m302it9h.jpg)
 
 修改的就是这块，效果如图所示
 
-![7.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwti2m25j307q06ztap.jpg)
+![7.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6dskgs4j307q06z0t8.jpg)
 
 修改侧边栏和网页底部的社交账号
 
-![9.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9pwxfg322j30al032a9x.jpg)
+![9.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6eamc27j30al032q2y.jpg)
 
-![8.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9q2jztatyj30jq03vdfu.jpg)
+![8.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6erdr1gj30jq03vmy8.jpg)
 
 这里要强调的是，username 填的并不是自己的用户名，而是个人主页网址的最后一部分。如我 instagram 的个人主页是 `https://www.instagram.com/shark_jing/`， 那么我填入的是 `shark_jing`。这是由于我们点击社交账号所导航到的是个人主页，而有些网站并不是以用户名作为结尾的。想要修改或者增加社交账号的相关路径，页脚的路径可修改 `footer.html` 文件，侧边栏可修改 `page.html` 文件。
 
@@ -105,7 +105,7 @@ Markdown 是一种非常简单的标记语言，其目的就是为了把写文�
 
 每篇文章的开头有这样一部分，是用来添加这篇文章的信息的。博客中文章将按照这里的时间进行排序。
 
-![10.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9q3cfofirj30j105gdg0.jpg)
+![10.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6f9qpi8j30j105gdh3.jpg)
 
 关于文章里的图片，不能直接从本地上传链接，否则会显示失败。解决方案是先将图片上传到图床，获取 URL 链接并用此链接插入图片。我用的是 [Chrome 的微博图床插件](https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf?utm_source=chrome-ntp-icon)上传图片。
 
@@ -117,11 +117,11 @@ Markdown 是一种非常简单的标记语言，其目的就是为了把写文�
 
 这里我们想修改 About Me 的自我介绍页面，也就是侧边栏和右上角链接的页面。
 
-![11.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwiroz91j31go0q5kjm.jpg)
+![11.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6g8tvdij31go0q5ne2.jpg)
 
 打开 `about.html` 文件，可修改最上方几项来更换背景、标题、描述。
 
-![12.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwl16n8aj30c202yglh.jpg)
+![12.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6gkpftjj30c202yq3b.jpg)
 
 接下来的内容是用 HTML 语言编辑的，这里我们先抛开页面排版的问题，可以略微学习一些简单的文字排版指令，来修改自我介绍页面文字内容，这是一篇讲述如何换行、列表等基础指令的文章。（ [HTML基础语法](https://www.jianshu.com/p/5892747102e7)）
 
@@ -129,15 +129,15 @@ Markdown 是一种非常简单的标记语言，其目的就是为了把写文�
 
 打开 `index.html` 文件，这个文件主要涉及的是 Home 页的标语和文章的显示。
 
-![14.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwt129eij311z07c7nm.jpg)
+![14.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6gvdv4rj311z07cadl.jpg)
 
-![15.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwto9rt1j30q1062jrs.jpg)
+![15.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6h9bcm6j30q1062jta.jpg)
 
 其对应的代码分别为：
 
-![16.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qww2lq70j30oz0290sk.jpg)
+![16.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6hkh45yj30oz029aai.jpg)
 
-![17.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qwwzjoxjj30v00alwet.jpg)
+![17.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6htx9xcj30v00alq5t.jpg)
 
 要说明的是 `post.date` 对应的是 Markdown 文件中开头填写的日期，而非文件名的日期，页面也将会按照该日期进行排列。`date: "%B %-d, %Y"` 是日期的显示格式。
 
@@ -149,11 +149,11 @@ Tags 页面在 `tags.html` 文件中修改，不建议做大改动。
 
 倘若要修改网站图标和手机上显示的网站图标
 
-![18.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qx5lzfucj306y011we9.jpg)
+![18.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6i4263kj306y011t8l.jpg)
 
 可在 `img` 文件夹中替换 `favicon.ico` 与 `apple-touch-icon.png`。或者可进入 `head.html` 文件，修改图片路径。
 
-![19.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9qxbypb6rj30kb02kt8m.jpg)
+![19.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg6ic9j17j30kb02k3z9.jpg)
 
 ## 写在最后
 
