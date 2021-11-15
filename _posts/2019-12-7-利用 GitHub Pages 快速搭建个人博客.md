@@ -24,7 +24,7 @@ tags:
 
 电脑上的样子：
 
-![1.PNG](http://ww1.sinaimg.cn/large/006EGaNZgy1g9osj52bqcj31gw0q01ky.jpg)
+![1.PNG](http://tva1.sinaimg.cn/large/006EGaNZgy1gwg65v5xisj31gw0q016j.jpg)
 
 手机上的样子：
 
