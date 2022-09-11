@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      A deep learning framework for geodesics under spherical Wasserstein-Fisher-Rao metric and its application for weighted sample generation
-subtitle:   有空就记录一下，没空就鸽了
+subtitle:   Yang Jing, Jiaheng Chen, Lei Li, Jianfeng Lu
 date:       2022-09-11
 updated:   2022-09-11
 author:     Jing Yang
