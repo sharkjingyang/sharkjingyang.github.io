@@ -18,5 +18,5 @@ Wasserstein-Fisher-Rao (WFR) distance is a family of metrics to gauge the discre
 
 ## ArXiv
 
-[https://arxiv.org/abs/2208.12145]: https://arxiv.org/abs/2208.12145
+[https://arxiv.org/abs/2208.12145](https://arxiv.org/abs/2208.12145)
 
