@@ -10,6 +10,8 @@ header-img: img/scene6.jpg
 catalog: true
 tags:
     - Preprint
+	- Academic
+	- My articles
 ---
 
 ## Abstract
