@@ -25,7 +25,7 @@ We developed a dynamic model of a male rat proximal tubule in order to investiga
 -----
 ## Main
 
-<p><a href="../pdf/Dynamic_Model_in_the_Proximal_tubule_of_Rat_Kidney.pdf">Pdf Files</a></p>
+<p><a href="http://sharkjingyang.github.io/pdf/Dynamic_Model_in_the_Proximal_tubule_of_Rat_Kidney.pdf">Pdf Files</a></p>
 
 ## Reference
 
