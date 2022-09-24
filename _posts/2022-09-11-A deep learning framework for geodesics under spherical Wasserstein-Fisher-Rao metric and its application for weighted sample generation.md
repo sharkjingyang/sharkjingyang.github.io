@@ -2,8 +2,8 @@
 layout:     post
 title:      德扑学习笔记
 subtitle:   Yang Jing, Jiaheng Chen, Lei Li, Jianfeng Lu
-date:       2022-09-11
-updated:   	2022-09-11
+date:       2022-9-11
+updated:   	2022-9-11
 author:     Jing Yang
 stickie:    false
 header-img: img/scene6.jpg
