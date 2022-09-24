@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      A deep learning framework for geodesics under spherical WFR metric
+title:      德扑学习笔记
 subtitle:   Yang Jing, Jiaheng Chen, Lei Li, Jianfeng Lu
 date:       2022-09-11
 updated:   	2022-09-11
