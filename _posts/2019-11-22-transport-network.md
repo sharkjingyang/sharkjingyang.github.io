@@ -28,9 +28,8 @@ We revise our model to simulate two different events which always happen in  nat
 
 **keyword** : Leaf venation ; Loops ; transport network
 
------
-## Main
+## 
 
-<center><embed src="https://docdro.id/Ty3kI03" width="700" height="10200"></center>
 ## Reference
+
 * [Katifori E, Szöllősi G J, Magnasco M O. Damage and fluctuations induce loops in optimal transport networks[J]. Physical Review Letters, 2010, 104(4): 048704.](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.104.048704)
