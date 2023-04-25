@@ -17,9 +17,8 @@ tags:
 I am Jing Yang ( 荆洋 ) , a PhD student majoring in Applied Mathematics in [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I got my Bachelor's Degree in SJTU in 2020. I was a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
 
 My current research field :
-* Machine Learning Algorithms
+* Deep generative models
 * Optimization
-* Stochastic Partial Equations in Machine Learning
 
 ----------
 
@@ -53,19 +52,14 @@ My current research field :
      * Do numerical experiments on test sets to verify different algorithm.
    * SGD with birth death process and noise
    * Long time diffusion approximations for SGD
+   * Birth-death Process
 * **Research Under Supervision@Shanghai Jiao Tong University & Duke University**
    * Jun.2020-Present
    * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) & [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) online
-   * Solving high-dimensional Hamilton-Jacobi-Bellman PDEs using neural networks
-     - perspectives from the theory of controlled diffusions and measures on path space
-* **Research Under Supervision@Mcgill University**
-   * Jun.2020-Present
-   * Advised by [Yi Yang](http://www.math.mcgill.ca/yyang/)  online
-   * Statistics Machine Learning
-   * Optimization
+   * Improving Continuous Normalizing Flow with unbalanced optimal transport theory. 
 
 ----------
-## Awards
+## Education
 
 * Liao Kaiyuan Scholarship (Top 10% in college)
 * Xingcai Scholarship (Top 10% in college)
@@ -75,7 +69,8 @@ My current research field :
 
 ## Education
 
-* Applied Mathematics, Zhiyuan College, Shanghai Jiao Tong University (2016.9-Present)
+* Ph.D candidate, Applied Mathematics, Shanghai Jiao Tong University (2020.9-present)
+* B.S., Applied Mathematics, Zhiyuan College, Shanghai Jiao Tong University (2016.9-2020.6)
 *  Zhenhai High School of Ningbo (2013.9-2016.6)
 
 -----
