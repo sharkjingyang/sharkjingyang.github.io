@@ -79,6 +79,7 @@ My current research field :
 
 ### Sports
 
+* Badminton and American Pool recently.
 * Love to play all kinds of ball games, passionate fan of NBA and soccer. 
 * My favorite NBA team is Boston Celtics. Favorite player is  Nikola Jokic. 
 * My favorite soccer club is Real Madrid. Favorite player is  Cristiano Ronaldo. 
