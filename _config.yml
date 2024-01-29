@@ -12,7 +12,7 @@ github_repo: "https://github.com/sharkjingyang/sharkjingyang.github.io.git" # yo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "PhD Candidate from SJTU, <br/> major in Applied Mathematics. "
-sidebar-avatar: /img/jy2.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/jy3.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
