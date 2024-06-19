@@ -85,7 +85,7 @@ cd /home/jingyang/R2020b_matlab/bin
 
 如果你有可视化程序，那么将会弹出matlab激活程序，需要输入带有许可证的mathwork账户，选择相应许可证后即可成功打开matlab。
 
-如果没有安装过可视化，这里推荐安装Xshell+Xmanager来可视化服务器上的内容，来激活matlab。下载Xshell和Xmanager成功后，在Xshell中登录服务器，输入上述命令，即可弹出激活程序。
+如果没有安装过可视化[Xshell](https://www.netsarang.com/en/xshell/)和[Xmanager](https://www.netsarang.com/en/xmanager/)，来激活matlab。下载Xshell和Xmanager成功后，在Xshell中登录服务器，输入上述命令，即可弹出激活程序。
 
 ![test](\img\kobe.jpg)
 
