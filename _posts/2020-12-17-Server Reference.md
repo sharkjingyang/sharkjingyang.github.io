@@ -50,40 +50,46 @@ pip3 install numpy(scipy/matplotlib...)
 
 ## 安装Matlab
 
-首先在matlab官网下载matlab 2020b
+### 下载安装 
 
-[Matlab 2020b]: https://www.mathworks.com/downloads/web_downloads/download_release?release=R2020b
+事实上荆洋已经在他的目录下安装了matlab R2020b和R2024b，只需要对每个用户进行激活即可（跳过到本教程激活步骤），当然也可以每个用户也可以在自己目录下安装matlab。以下为在自己目录下载安装matlab教程。
 
-将压缩包放入服务器后，通过命令解压到新建的matlab文件夹
+首先在matlab官网登录账号后下载matlab linux压缩安装包，以2020b为例
 
-```
-mkdir matlab
-unzip -q matlab_R2019b_glnxa64.zip -d matlab
-```
-
-进入matlab文件夹并运行install
+将压缩包放入服务器后，通过命令解压到新建的matlab_2020b文件夹
 
 ```
-cd matlab
+mkdir matlab_2020b
+unzip -q matlab_R2020b_glnxa64.zip -d matlab_2020b
+```
+
+进入matlab_2020b文件夹并运行install
+
+```
+cd matlab_2020b
 ./install # 不要加sudo，否则会报错，相应的由于没有权限故安装目录必须选在自己文件夹内
 ```
 
 安装激活过程和在自己电脑上安装matlab没有区别，安装目录可选在自己文件夹下。（安装在root目录下会出现一点问题，暂时还没找到方法解决）
 
-安装过程中需要登录mathlab的账号，选择账号中相应的许可证书即可。
+安装过程中需要登录matlab的账号，选择账号中相应的许可证书即可。
 
-现在我已经在我的目录下安装好了R2020b版本，只需要对每个用户进行激活即可。
+### 激活
 
 对于服务器新用户，输入以下命令
 
 ```
-cd /home/jingyang/R2020b/bin
+cd /home/jingyang/R2020b_matlab/bin
 ./activate_matlab.sh
 ```
 
-将会弹出matlab激活程序，需要输入带有许可证的mathwork账户。（如果没有，可以暂时向荆洋要）
+如果你有可视化程序，那么将会弹出matlab激活程序，需要输入带有许可证的mathwork账户，选择相应许可证后即可成功打开matlab。
 
-选择相应许可证后即可成功打开matlab。
+如果没有安装过可视化，这里推荐安装Xshell+Xmanager来可视化服务器上的内容，来激活matlab。下载Xshell和Xmanager成功后，在Xshell中登录服务器，输入上述命令，即可弹出激活程序。
+
+![image-20240619114100433](C:\Users\shark\AppData\Roaming\Typora\typora-user-images\image-20240619114100433.png)
+
+### 运行
 
 需要运行matlab时候输入以下命令
 
@@ -101,7 +107,7 @@ vi ~/.bashrc
 进入后摁`i`进入insert模式 加入以下代码：
 
 ```
-alias matlab='/home/jingyang/R2020b/bin/matlab'
+alias matlab='/home/jingyang/R2020b_matlab/bin/matlab'
 ```
 
 摁`esc`退出insert模式，输入 `:wq!` 保存改动并退出，并在命令行激活该改动
