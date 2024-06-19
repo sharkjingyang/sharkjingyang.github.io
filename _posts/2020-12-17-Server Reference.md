@@ -87,7 +87,7 @@ cd /home/jingyang/R2020b_matlab/bin
 
 如果没有安装过可视化，这里推荐安装Xshell+Xmanager来可视化服务器上的内容，来激活matlab。下载Xshell和Xmanager成功后，在Xshell中登录服务器，输入上述命令，即可弹出激活程序。
 
-![image-20240619114100433](C:\Users\shark\AppData\Roaming\Typora\typora-user-images\image-20240619114100433.png)
+![test](\img\kobe.jpg)
 
 ### 运行
 
