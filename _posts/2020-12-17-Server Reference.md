@@ -87,7 +87,7 @@ cd /home/jingyang/R2020b_matlab/bin
 
 如果没有安装过可视化[Xshell](https://www.netsarang.com/en/xshell/)和[Xmanager](https://www.netsarang.com/en/xmanager/)，来激活matlab。下载Xshell和Xmanager成功后，在Xshell中登录服务器，输入上述命令，即可弹出激活程序。
 
-![Xshell_Xmanager](\img\post_img\Guidance_server_1.jpg)
+![Xshell_Xmanager](\img\post_img\Guidance_server_1.png)
 
 ### 运行
 
@@ -117,6 +117,12 @@ source ~/.bashrc
 ```
 
 以后每次只需要输入`matlab`即可激活程序。（该步骤仅对每个用户有用）
+
+或者可以直接输入下属命令无窗口运行代码文件
+
+```
+matlab -nodisplay -nosplash -nodesktop -r "run('your_code.m'); exit;"
+```
 
 ## 虚拟环境（重要）
 
