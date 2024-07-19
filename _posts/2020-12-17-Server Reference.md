@@ -210,3 +210,31 @@ $screen -r jy #重新连接到jy窗口，显示其运行过程
 $kill 28475 #终止ssd窗口对应任务的运行，同时杀死该窗口
 ```
 
+## 使用tensorboard查看训练
+
+在使用TensorBoard前，我们需要先指定一个文件夹供TensorBoard保存记录下来的数据。然后调用tensorboard中的SummaryWriter作为上述“记录员”
+
+```python
+from tensorboardX import SummaryWriter
+
+writer = SummaryWriter('./runs')
+```
+
+上面的操作实例化SummaryWritter为变量writer，并指定writer的输出目录为当前目录下的"runs"目录。也就是说，之后tensorboard记录下来的内容都会保存在runs。
+
+如果使用PyTorch自带的tensorboard，则采用如下方式import：
+
+```python
+from torch.utils.tensorboard import SummaryWriter
+```
+
+启动tensorboard也很简单，在命令行中输入
+
+```python
+tensorboard --logdir=/path/to/logs/ --port=xxxx
+```
+
+其中“path/to/logs/"是指定的保存tensorboard记录结果的文件路径（等价于上面的“./runs"，port是外部访问TensorBoard的端口号，可以通过访问ip:port访问tensorboard。
+
+更具体的教程可以参考“：[tensorboard教程](https://datawhalechina.github.io/thorough-pytorch/%E7%AC%AC%E4%B8%83%E7%AB%A0/7.3%20%E4%BD%BF%E7%94%A8TensorBoard%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%AD%E7%BB%83%E8%BF%87%E7%A8%8B.html)
+
