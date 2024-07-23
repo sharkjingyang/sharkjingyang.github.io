@@ -38,6 +38,20 @@ sudo usermod -aG sudo username
 
 目前服务器中已经安装了比较新的显卡驱动，理论上来说之前荆洋已经在根目录上安装了cuda和cudnn，用户只需要自行安装pytorch即可。
 
+### 查看服务器使用情况
+
+可以pip安装gpustat库后使用下述命令查看gpu使用情况
+
+```
+watch -n 1 -c gpustat --color
+```
+
+或者直接使用下述查看完整使用情况
+
+```
+nvidia-smi
+```
+
 ### 使用tensorboard查看训练（optional）
 
 在使用TensorBoard前，我们需要先指定一个文件夹供TensorBoard保存记录下来的数据。然后调用tensorboard中的SummaryWriter作为上述“记录员”
