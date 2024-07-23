@@ -244,5 +244,17 @@ $screen -r jy #重新连接到jy窗口，显示其运行过程
 $kill 28475 #终止ssd窗口对应任务的运行，同时杀死该窗口
 ```
 
+# LLM工具
+
+可以利用LLM工具辅助写代码、修改论文、搜索，以下为推荐的大模型：
+
+Chatgpt：https://chat.openai.com/
+
+Deepseek：https://www.deepseek.com/  快速，目前开源大模型第一名 
+
+Kimi：https://kimi.moonshot.cn/  可处理pdf，在处理长文本方面具有一定优势 
+
+上述三者都有免费版本
+
 
 
