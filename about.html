@@ -5,111 +5,7 @@ description: "Hey, this is Jing Yang."
 header-img: "img/scene4.jpg"
 ---
 
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select> -->
-
-<!-- Chinese Version -->
-<div class="zh post-container">
-
-    <!--copied from markdown -->
-    <blockquote><p>慵懒而不羁<br>
-    肆意而破落</p></blockquote>
-
-    <p>Hey，我是<strong>荆洋（Shark Jing)</strong>，现在是上海交大数学与科学学院在读博士生。我本科毕业于上海交通大学致远学院,应用数学方向。</p>
-
-    <!-- <p>这是我的<a href="https://github.com/sharkjingyang/sharkjingyang.github.io/blob/master/YangJing_resume.pdf/">CV</a>。</p> -->
-    <p>这是我的<a href="https://sharkjingyang.github.io/YangJing_resume.pdf">CV</a>。</p>
-
-
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的个人博客。感谢<a href="https://github.com/qiubaiying">GitHub·BY</a>提供的模板。</p>
-
-    <p>更详细的个人介绍<a href="https://sharkjingyang.github.io/2019/11/21/About-Jing-Yang/" target="_blank">About Jing Yang</a>。</p>
-
-
-
-    <h5>Introduction</h5>
-
-    <p>I am Jing Yang(荆洋), a PhD student majoring in Applied Mathematics at <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>. I got my Bachelor's Degree at SJTU in 2020. I was a member of <a href="https://zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, which is an elite mathematics program in SJTU for top 5% talented students.</p>
-
-    <p>My current research field :<p>
-    <ul>
-    <li>Machine Learning Algorithms</li>
-    <li>Optimization</li>
-    <li>SDE in machine learning</li>
-    </ul>
-    <p>Here is my <a href="https://github.com/sharkjingyang/sharkjingyang.github.io/blob/master/YangJing_resume.pdf/">CV</a>.</p>
-    <p>For more information about me, see <a href="https://sharkjingyang.github.io/2019/11/21/About-Jing-Yang/">About Jing Yang</a>.</p>
-    
-    
-    
-    
-    
-</div>
-
-<!-- English Version -->
-<!-- <div class="en post-container">
-    <blockquote><p>Yet another iOS Developer. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
-
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-    <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://qiubaiying.github.io">BY</a></li>
-    </ul>
-</div> -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
-
+{% include about-content.html %}
 
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
@@ -118,22 +14,22 @@ header-img: "img/scene4.jpg"
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
     var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
+        clientID: '{{site.gitalk.clientID}}',
+        clientSecret: '{{site.gitalk.clientSecret}}',
+        repo: '{{site.gitalk.repo}}',
+        owner: '{{site.gitalk.owner}}',
+        admin: ['{{site.gitalk.admin}}'],
+        distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+        id: 'about',
     });
     gitalk.render('gitalk-container');
 </script>
 {% endif %}
 <!-- Gitalk end -->
 
- <!-- disqus 评论框 start  -->
+<!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
 
 <div class="comment">
@@ -144,7 +40,6 @@ header-img: "img/scene4.jpg"
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus.username}}";
     var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
     var disqus_url = "{{site.url}}{{page.url}}";
@@ -157,4 +52,3 @@ header-img: "img/scene4.jpg"
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
-
