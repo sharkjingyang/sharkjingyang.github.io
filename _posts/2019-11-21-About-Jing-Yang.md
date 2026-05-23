@@ -3,7 +3,7 @@ layout:     post
 title:      About Jing Yang
 subtitle:   Learn More about Me
 date:       2019-11-21
-updated:    2019-11-21
+updated:    2026-05-23
 author:     Jing Yang
 stickie:    false
 header-img: img/scene16.jpg
@@ -14,11 +14,12 @@ tags:
 
 
 ## Introduction
-I am Jing Yang ( 荆洋 ) , a PhD student majoring in Applied Mathematics in [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). I got my Bachelor's Degree in SJTU in 2020. I was a member of [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), which is an elite mathematics program in SJTU for top 5% talented students.
+I am Jing Yang ( 荆洋 ). I received my Ph.D. in Applied Mathematics from [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), and my Bachelor's Degree from [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), SJTU, in 2020.
 
-My current research field :
-* Deep generative models
-* Optimization
+Since September 2025, I have been working at Huawei, focusing on:
+* Weather forecasting
+* Time-series modeling
+* Machine learning methods for scientific data
 
 ----------
 
@@ -54,7 +55,7 @@ My current research field :
    * Long time diffusion approximations for SGD
    * Birth-death Process
 * **Research Under Supervision@Shanghai Jiao Tong University & Duke University**
-   * Jun.2020-Present
+   * Jun.2020-Aug.2025
    * Advised by [Li Lei](https://ins.sjtu.edu.cn/faculty/lilei) & [Jianfeng Lu](https://services.math.duke.edu/~jianfeng/) online
    * Improving Continuous Normalizing Flow with unbalanced optimal transport theory. 
 
@@ -69,7 +70,7 @@ My current research field :
 
 ## Education
 
-* Ph.D candidate, Applied Mathematics, Shanghai Jiao Tong University (2020.9-present)
+* Ph.D., Applied Mathematics, Shanghai Jiao Tong University (2020.9-2025)
 * B.S., Applied Mathematics, Zhiyuan College, Shanghai Jiao Tong University (2016.9-2020.6)
 *  Zhenhai High School of Ningbo (2013.9-2016.6)
 

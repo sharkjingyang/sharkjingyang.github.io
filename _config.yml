@@ -4,14 +4,14 @@ SEOTitle: 荆洋的博客 | Shark Blog # 浏览器中显示的名字
 header-img: img/scene4.jpg   # 主页背景
 email: sharkjingyang@gmail.com  
 description: "Every failure is leading towards success."
-keyword: "Jing Yang, SJTU, mathematics, Blog, JY"
+keyword: "Jing Yang, SJTU, Huawei, mathematics, weather forecasting, time series, Blog, JY"
 url: "http://sharkjingyang.github.io"          # 博客地址 for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog' 这个是在url后加的，但我们不用填
 github_repo: "https://github.com/sharkjingyang/sharkjingyang.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "PhD Candidate from SJTU, <br/> major in Applied Mathematics. "
+sidebar-about-description: "SJTU Ph.D. graduate. <br/> Working at Huawei on weather forecasting and time-series modeling. "
 sidebar-avatar: /img/jy4.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
