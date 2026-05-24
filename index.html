@@ -3,6 +3,45 @@ layout: page
 description: "It's the people who no one imagines anything of who do the thing that no one can imagine."
 ---
 
+<script>
+    (function() {
+        var scenes = [
+            "scene1.jpg",
+            "scene2.jpg",
+            "scene3.jpg",
+            "scene4.jpg",
+            "scene5.jpg",
+            "scene6.jpg",
+            "scene7.jpg",
+            "scene8.jpg",
+            "scene9.jpg",
+            "scene10.jpg",
+            "scene11.jpg",
+            "scene12.jpg",
+            "scene13.jpg",
+            "scene14.jpg",
+            "scene15.jpg",
+            "scene16.jpg",
+            "scene17.jpg",
+            "scene18.jpg",
+            "scene19.jpg",
+            "scene20.jpg"
+        ];
+        var today = new Date();
+        var key = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+        var hash = 0;
+        for (var i = 0; i < key.length; i++) {
+            hash = ((hash << 5) - hash) + key.charCodeAt(i);
+            hash = hash & hash;
+        }
+        var scene = scenes[Math.abs(hash) % scenes.length];
+        var header = document.querySelector(".intro-header");
+        if (header) {
+            header.style.backgroundImage = "url('{{ site.baseurl }}/img/" + scene + "')";
+        }
+    })();
+</script>
+
 <section class="home-about">
 {% include home-about-content.html %}
 </section>
