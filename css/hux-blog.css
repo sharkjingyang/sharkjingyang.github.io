@@ -503,8 +503,23 @@ pre code {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  position: relative;
+  overflow: hidden;
   margin-bottom: 0px;
   /* 0 on mobile, modify by Hux */
+}
+.intro-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.34);
+}
+.intro-header .container {
+  position: relative;
+  z-index: 1;
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
@@ -541,6 +556,7 @@ pre code {
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
@@ -555,6 +571,7 @@ pre code {
   display: block;
   font-weight: 300;
   margin: 10px 0 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -565,11 +582,13 @@ pre code {
 .intro-header .post-heading h1 {
   font-size: 30px;
   margin-bottom: 24px;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
   line-height: 1.1;
   display: block;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
 }
 .intro-header .post-heading .subheading {
   /* Hux learn from

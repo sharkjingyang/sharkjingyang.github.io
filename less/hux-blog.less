@@ -433,8 +433,23 @@ pre code{
 	background-color: @gray;
 	background-attachment: scroll;
 	.background-cover;
+	position: relative;
+	overflow: hidden;
 	// NOTE: Background images are set within the HTML using inline CSS!
 	margin-bottom: 0px;  /* 0 on mobile, modify by Hux */
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.34);
+	}
+	.container {
+		position: relative;
+		z-index: 1;
+	}
 	@media only screen and (min-width: 768px) {
 		margin-bottom: 20px;  /* response on desktop */
 	}
@@ -460,6 +475,7 @@ pre code{
 		h1 {
 			margin-top: 0;
 			font-size: 50px;
+			text-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
 		}
 		.subheading {
 			.sans-serif;
@@ -468,6 +484,7 @@ pre code{
 			display: block;
 			font-weight: 300;
 			margin: 10px 0 0;
+			text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
@@ -479,11 +496,13 @@ pre code{
 		h1 {
 			font-size: 30px;
 			margin-bottom: 24px;
+			text-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
 		}
 		.subheading,
 		.meta {
 			line-height: 1.1;
 			display: block;
+			text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
 		}
 		.subheading {
 			.sans-serif;
