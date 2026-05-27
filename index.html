@@ -6,22 +6,16 @@ description: "It's the people who no one imagines anything of who do the thing t
 <script>
     (function() {
         var scenes = [
-            "scene1.jpg",
-            "scene4.jpg",
-            "scene5.jpg",
-            "scene6.jpg",
-            "scene7.jpg",
-            "scene8.jpg",
-            "scene9.jpg",
-            "scene12.jpg",
-            "scene13.jpg",
-            "scene14.jpg",
-            "scene16.jpg",
-            "scene17.jpg",
-            "scene18.jpg",
-            "scene19.jpg",
-            "scene20.jpg"
+            {% for file in site.static_files %}
+                {% assign ext = file.extname | downcase %}
+                {% if file.path contains '/img/background/' %}
+                    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
+            "{{ file.path | prepend: site.baseurl }}",
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
         ];
+        if (!scenes.length) return;
         var today = new Date();
         var key = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
         var hash = 0;
@@ -32,7 +26,7 @@ description: "It's the people who no one imagines anything of who do the thing t
         var scene = scenes[Math.abs(hash) % scenes.length];
         var header = document.querySelector(".intro-header");
         if (header) {
-            header.style.backgroundImage = "url('{{ site.baseurl }}/img/" + scene + "')";
+            header.style.backgroundImage = "url('" + scene + "')";
         }
     })();
 </script>
