@@ -6,7 +6,7 @@ date:       2019-11-21
 updated:    2026-05-23
 author:     Jing Yang
 stickie:    false
-header-img: img/scene16.jpg
+header-img: img/background/scene16.jpg
 catalog: true
 tags:
     - Self
