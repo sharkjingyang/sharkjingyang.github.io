@@ -1,35 +1,8 @@
 ---
 layout: page
 description: "It's the people who no one imagines anything of who do the thing that no one can imagine."
+header-img: img/background/scene19.jpg
 ---
-
-<script>
-    (function() {
-        var scenes = [
-            {% for file in site.static_files %}
-                {% assign ext = file.extname | downcase %}
-                {% if file.path contains '/img/background/' %}
-                    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
-            "{{ file.path | prepend: site.baseurl }}",
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        ];
-        if (!scenes.length) return;
-        var today = new Date();
-        var key = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-        var hash = 0;
-        for (var i = 0; i < key.length; i++) {
-            hash = ((hash << 5) - hash) + key.charCodeAt(i);
-            hash = hash & hash;
-        }
-        var scene = scenes[Math.abs(hash) % scenes.length];
-        var header = document.querySelector(".intro-header");
-        if (header) {
-            header.style.backgroundImage = "url('" + scene + "')";
-        }
-    })();
-</script>
 
 <section class="home-about">
 {% include home-about-content.html %}
